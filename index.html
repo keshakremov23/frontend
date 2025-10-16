@@ -1,4 +1,4 @@
-=<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -21,18 +21,8 @@
                 <div class="message-content">
                     <img src="logo-metrhosha.png" alt="Метроша" class="avatar">
                     <div class="message-bubble">
-                        <div class="message-text">Привет! Меня зовут Метроша, чем я могу помочь?</div>
+                        <div class="message-text">Привет! Меня зовут Метроша, ваш помощник в московском метро! 🚇 Я могу помочь с маршрутами, ценами на проезд, временем работы и информацией о станциях. Чем могу помочь?</div>
                     </div>
-                </div>
-            </div>
-            
-            <!-- Пример пользовательского сообщения -->
-            <div class="message user-message">
-                <div class="message-content">
-                    <div class="message-bubble">
-                        <div class="message-text">Привет!</div>
-                    </div>
-                    <img src="user-avatar.png" alt="Пользователь" class="avatar">
                 </div>
             </div>
         </div>
@@ -46,9 +36,62 @@
                     </svg>
                 </button>
             </div>
+            
+            <div class="quick-questions-section">
+                <div class="section-title">Часто задаваемые вопросы:</div>
+                <div class="quick-buttons-grid">
+                    <button class="quick-btn" data-question="Сколько стоит проезд в метро?">
+                        <div class="btn-icon">💰</div>
+                        <div class="btn-content">
+                            <div class="btn-title">Цены на проезд</div>
+                            <div class="btn-subtitle">Билеты и стоимость</div>
+                        </div>
+                    </button>
+                    
+                    <button class="quick-btn" data-question="Время работы метро">
+                        <div class="btn-icon">⏰</div>
+                        <div class="btn-content">
+                            <div class="btn-title">График работы</div>
+                            <div class="btn-subtitle">Когда открывается</div>
+                        </div>
+                    </button>
+                    
+                    <button class="quick-btn" data-question="Как доехать от Аэропорта до Парка культуры?">
+                        <div class="btn-icon">🗺️</div>
+                        <div class="btn-content">
+                            <div class="btn-title">Построить маршрут</div>
+                            <div class="btn-subtitle">Аэропорт → Парк культуры</div>
+                        </div>
+                    </button>
+                    
+                    <button class="quick-btn" data-question="Станция Киевская">
+                        <div class="btn-icon">🚇</div>
+                        <div class="btn-content">
+                            <div class="btn-title">Инфо о станции</div>
+                            <div class="btn-subtitle">Киевская</div>
+                        </div>
+                    </button>
+                    
+                    <button class="quick-btn" data-question="Какие есть линии метро?">
+                        <div class="btn-icon">📏</div>
+                        <div class="btn-content">
+                            <div class="btn-title">Линии метро</div>
+                            <div class="btn-subtitle">Список всех линий</div>
+                        </div>
+                    </button>
+                    
+                    <button class="quick-btn" data-question="Найди станцию ВДНХ">
+                        <div class="btn-icon">🔍</div>
+                        <div class="btn-content">
+                            <div class="btn-title">Поиск станции</div>
+                            <div class="btn-subtitle">Найти станцию</div>
+                        </div>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
