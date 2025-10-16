@@ -1,0 +1,54 @@
+=<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ИИ помощник Метроша</title>
+</head>
+<body>
+    <div class="header">
+        <img src="logomosgortrans.png" alt="Логотип Московского транспорта" class="header-logo">
+    </div>
+    
+    <div class="background">
+        <img src="lapsha.png" alt="Фоновое изображение" class="background-image">
+    </div>
+    
+    <div class="chat-container">
+        <div id="chat" class="chat-messages">   
+            <div class="message bot-message">
+                <div class="message-content">
+                    <img src="logo-metrhosha.png" alt="Метроша" class="avatar">
+                    <div class="message-bubble">
+                        <div class="message-text">Привет! Меня зовут Метроша, чем я могу помочь?</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Пример пользовательского сообщения -->
+            <div class="message user-message">
+                <div class="message-content">
+                    <div class="message-bubble">
+                        <div class="message-text">Привет!</div>
+                    </div>
+                    <img src="user-avatar.png" alt="Пользователь" class="avatar">
+                </div>
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <div class="input-wrapper">
+                <input type="text" id="message-input" placeholder="Введите ваш вопрос..." autocomplete="off">
+                <button id="send-btn" class="send-button">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
